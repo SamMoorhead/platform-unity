@@ -17,7 +17,7 @@
         }
         void OnTriggerEnter2D(Collider2D col) //1
         { 
-            Debug.Log("Collision");
+            
             if (col.gameObject.tag == "player") //2
             {
                 Destroy(gameObject); //3
